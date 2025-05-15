@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-*32udw=d9ok%imr%c4zf-$p=fouv=*1uuq*y2y@c(b=9@@k%$+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['votre-backend.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 # Whitenoise configuration
 STATIC_URL = '/static/'
